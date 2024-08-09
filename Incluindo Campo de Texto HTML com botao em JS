@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Botão de Incluir Campo de Texto</h1>
+  <button id="myButton">Mostrar Texto</button>
+  <p id="myText"></p> <script src="script.js"></script>
+</body>
+
+
+  <script>
+    const button = document.getElementById('myButton');
+    const text = document.getElementById('myText');
+    button.addEventListener('click', () => {
+      text.textContent = "Campo de Texto";
+    });
+  </script>
+</html>
